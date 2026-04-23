@@ -14,7 +14,7 @@ Path("outputs").mkdir(parents=True, exist_ok=True)
 Path("registry").mkdir(parents=True, exist_ok=True)
 
 # 1. Load dataset
-df = pd.read_csv('data/processed/creditcard_clean.csv')
+df = pd.read_csv('data/sample/creditcard_clean.csv')
 X = df.drop("Class", axis=1)
 y = df["Class"]
 
