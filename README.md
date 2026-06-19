@@ -96,6 +96,3 @@ Deploy to Kubernetes:
 kubectl apply -f k8s/
 ```
 
-## Author
-
-Ali Younes
